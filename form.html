@@ -1,0 +1,30 @@
+<HTML>
+<HEAD>
+ <TITLE>New Document</TITLE>
+
+</HEAD>
+<BODY>
+
+<?php
+     session_start();
+?>                  <center>
+         <label><p>Página de Login<p></label>
+  <form method="post" action="processaLogin.php">
+     <div>
+          <label for="login">Login: </label>
+          <input type="text" name="login" />
+      </div>
+      <br>
+       <div>
+          <label for="senha">Senha: </label>
+          <input type="password" name="senha" />
+      </div>
+      
+      <div>
+
+          <input type="submit"/>
+      </div>
+                   </form>
+            </center>
+</BODY>
+</HTML>
